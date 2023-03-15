@@ -1,0 +1,42 @@
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, white, blue);
+  height: 100vh;
+}
+.container {
+  height: 400px;
+  width: 500px;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.heading {
+  text-align: center;
+}
+.emoji {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+.button {
+  background-color: transparent;
+  border: none;
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+.image {
+  height: 100px;
+}
+.love-emoji {
+  height: 100px;
+  width: 100px;
+}
+.description {
+  text-align: center;
+}
